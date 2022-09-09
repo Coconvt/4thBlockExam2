@@ -1,9 +1,44 @@
+/* general styles */
+body{
+    background-color:#3376bd;
+    font-family:sans-serif;
+}
+
 h1{
-    background-color:#1e5ddb;
     color:#2e393d;
 }
 
-.nav-bar{
-    font-family:sans-serif;
-    border-style:groove;
+img{
+    height:400px;
+}
+
+/* specific styles */
+.title{
+    text-align:center;
+    font-size:48px;
+}
+
+.nav-bar a{
+    border:7px groove #e63946;
+    text-decoration:none;
+    color:#00798c;
+    background-color:#edae49;
+    font-size:30px;
+}
+
+.dates{
+    text-align:center;
+    font-size:20px;
+    font-weight:bolder;
+    color:#2e393d
+}
+
+.active{
+    font-size:50px;
+}
+
+img.alternate{
+    display:block;
+    margin:auto;
+    width:800px;
 }

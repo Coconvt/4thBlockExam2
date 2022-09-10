@@ -18,6 +18,10 @@ img{
     font-size:48px;
 }
 
+.nav-bar{
+    margin:auto;
+}
+
 .nav-bar a{
     border:7px groove #e63946;
     text-decoration:none;
@@ -41,4 +45,5 @@ img.alternate{
     display:block;
     margin:auto;
     width:800px;
+    height:auto;
 }
